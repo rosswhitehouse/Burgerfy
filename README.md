@@ -57,3 +57,13 @@ $('.menu').burgerfy({
 ```
 
 ##Step Three: Options
+
+Inside Burgerfy, you can change certain options to change your menu's features. A list of all of the options can be found [here](), but for now we're going to look at just one feature: animation. This means whether your menu will just appear or animate. 
+
+Each feature has a default set, in this case false. But you can change this in the code above between the parentheses.
+
+```javascript
+$('.menu').burgerfy({
+  animation: true
+});
+```
