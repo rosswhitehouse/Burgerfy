@@ -21,7 +21,11 @@ Make sure your own stylesheet is **underneath** the Burgerfy stylesheet.
 In order to install the JQuery aspect of Burgerfy, you will first need to link to JQuery. To do this, copy this link into your `<head>`:
 
 ```HTML 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 ```
 
 The next step is to link to burgerfy.js. To do this, copy the following link into your `<head>`, **underneath** the JQuery link from above.
+
+```HTML 
+<script src="js/burgerfy.js"></script>
+```
